@@ -1,0 +1,261 @@
+*{
+	font-family:'Arial', sans-serif;
+}
+
+body
+{
+	/*background-color: #E9E5D3;*/
+	background-color: #E4F1FE;
+	margin:0;
+	padding: 0;
+	position: relative;
+	z-index: -1;
+}
+
+#header
+{
+	background: #425797;
+	position: fixed;
+	width: 100%;
+	height: 65px;
+	top: 0;
+	left: 0;
+	box-shadow: 0px 3px 10px #333;
+	z-index: 1;
+}
+
+#name
+{
+	text-align: center;
+}
+
+#name h1
+{
+	margin-top: 12px;
+	font-weight: 300;
+	font-size: 36px;
+	color: white;
+}
+
+
+
+#main
+{
+	margin-top: 85px;
+	position: relative;
+	z-index: -1;
+}
+
+.categorycontainer
+{
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 30px;
+	text-align: center;
+	height: 150px;
+	font-size: 24px;
+	color: white;
+}
+
+.categorybuttonLeven, .categorybuttonReven, .categorybuttonLodd, .categorybuttonRodd
+{
+	width: 47%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.categorybuttonLodd, .categorybuttonLeven
+{
+	float:left;
+}
+
+.categorybuttonRodd, .categorybuttonReven
+{
+	float: right;
+}
+
+.categorybuttonReven, .categorybuttonLodd
+{
+	background: #425797;
+	transition: background-color .25s ease-in-out;
+   	-moz-transition: background-color .25s ease-in-out;
+   	-webkit-transition: background-color .25s ease-in-out;
+}
+
+.categorybuttonRodd, .categorybuttonLeven
+{
+	background: #666;
+	transition: background-color .25s ease-in-out;
+   	-moz-transition: background-color .25s ease-in-out;
+   	-webkit-transition: background-color .25s ease-in-out;
+}
+
+
+
+
+
+
+#search
+{
+	background-color: #425797;
+	color: white;
+	position: fixed;
+	right:0;
+	top:0;
+	height:65px;
+	width:110px;
+	border: none;
+	border-left: 1px solid #454545;
+	outline: none;
+	transition: background-color .25s ease-in-out;
+   	-moz-transition: background-color .25s ease-in-out;
+   	-webkit-transition: background-color .25s ease-in-out;
+}
+
+#searchbutton
+{
+	font-size: 22px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+/*Menu Stuff*/
+
+#menuclosed
+{
+	background-color: #425797;
+	color: white;
+	position: fixed;
+	left:0;
+	top:0;
+	height:65px;
+	width:110px;
+	border: none;
+	border-right: 1px solid #454545;
+	outline: none;
+	transition: background-color .25s ease-in-out;
+   	-moz-transition: background-color .25s ease-in-out;
+   	-webkit-transition: background-color .25s ease-in-out;
+}
+
+#menuclosedbutton
+{
+	font-size: 22px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#menuopen
+{
+	/*#3A76C2*/
+	background: #425797;
+	position: fixed;
+	width: 265px;
+	top: 66px;
+	bottom: 0;
+	left: 0;
+	box-shadow: 2px 0px 10px #222;
+	visibility: hidden;
+}
+
+.menubutton
+{
+	margin-top: 1px;
+}
+.menubutton, .menubuttonfirst
+{
+	font-size: 18px;
+	color: white;
+	padding: 20px;
+	/*border-bottom: solid 1px #252525;*/
+	box-shadow: 0px 2px 3px -2px #222;
+	background-color: #425797;
+   	transition: background-color .25s ease-in-out;
+   	-moz-transition: background-color .25s ease-in-out;
+   	-webkit-transition: background-color .25s ease-in-out;
+}
+
+#searchopen
+{
+	/*#3A76C2*/
+	color:white;
+	background: #425797;
+	position: fixed;
+	width: 100%;
+	top: 66px;
+	height: 165px;
+	right: 0;
+	box-shadow: 2px 0px 10px #222;
+	visibility: hidden;
+}
+
+#searchcontainer
+{
+	position: fixed;
+	left: 0;
+	top: 130px;
+	height: 39px;
+	padding-left: 25px;
+	right: 25px;
+}
+
+.searchtext
+{
+	height: 32px;
+	text-indent: 4px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.searchbutton
+{
+	background-color: #677CBC;
+	position: fixed;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	right: 21px;
+	margin-top: -38px;
+
+	transition: background-color .25s ease-in-out;
+   -moz-transition: background-color .25s ease-in-out;
+   -webkit-transition: background-color .25s ease-in-out;
+}
+
+
+.searchprompt
+{
+	position:fixed;
+	top: 100px;
+	left: 25px;
+	font-size: 22px;
+}
+
+.fade {
+   background-color: #252525;
+   transition: background-color .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+  }
+
+#menuclosed:hover, #menuopen:hover, #search:hover, .searchbutton:hover, .categorybuttonRodd:hover, .categorybuttonLodd:hover, .categorybuttonReven:hover, .categorybuttonLeven:hover
+{
+	cursor: pointer; cursor:hand;
+}
+
+.menubutton:hover, .menubuttonfirst:hover, #menuclosed:hover, #search:hover, .searchbutton:hover, .categorybuttonRodd:hover, .categorybuttonLodd:hover, .categorybuttonReven:hover, .categorybuttonLeven:hover
+{
+	background-color: #252525;
+}
+
+.fade:hover
+{
+	background-color: #004C4C;
+}
+
+.menubutton:active, .menubuttonfirst:active, #menuclosed:active, #search:active, .searchbutton:active, .categorybuttonRodd:active, .categorybuttonLodd:active, .categorybuttonReven:active, .categorybuttonLeven:active
+{
+	background-color: #444;
+}

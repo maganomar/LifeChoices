@@ -1,0 +1,41 @@
+<div class="item">
+      <span>
+        <label for="Item[0]">Item #1</label>
+        <input type="text" value="" name="Item" id="Item[0]"/>
+      </span>
+    </div>
+
+
+                
+                
+                
+                
+
+    
+    
+     
+<div class = 'questionbox'>
+				<div>
+					This question is here waiting to be answered?
+				</div>
+				<button>
+					&#9650;
+				</button>
+				<button >
+					&#9660;
+				</button>
+				<button class = 'enter'>
+					>
+				</button>
+				<div class = 'points'>
+					56
+				</div>
+</div>
+
+
+
+
+ $('#TextBoxId').keypress(function(e){
+      if(e.keyCode==13)
+      $('#linkadd').click();
+    });

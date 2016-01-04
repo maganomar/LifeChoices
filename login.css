@@ -1,0 +1,132 @@
+.welcome_box {
+
+
+	
+	/*
+	background-color: #CEE8E4;
+	height: 85px;
+	width: 300px;
+	border-radius: 25px;
+	*/
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 150px;
+	margin-left: 45px;
+	text-align: center;
+	font-size: 60px;
+	font-style: bold;
+}
+
+.description {
+
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 10px;
+	margin-left: 45px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+
+.back {
+
+
+	background: url(Norris.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	
+
+}
+
+.username_input{
+
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 30px;
+	width: 600px;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+	margin-left: 375px;
+	text-align: center;
+	font-size: 32px;
+	padding-top: 20px;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	font-style: bold;
+	opacity: 0.8;
+    
+
+}
+
+.password_input {
+
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 25px;
+	width: 600px;
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 100px;
+	margin-left: 375px;
+	text-align: center;
+	font-size: 32px;
+	padding-top: 20px;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	font-style: bold;
+
+	opacity: 0.8;
+
+}
+
+
+.login_button{
+
+	color: white;
+	background-color: #00B454;
+
+	height: 85px;
+	width: 300px;
+	border-radius: 10px;
+	opacity: 0.8;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: bold;
+
+	margin-top: 180px;
+	margin-left: 550px;
+
+
+}
+
+.newuser_button_area{
+
+
+}
+
+.newuser_button {
+
+	
+	color: white;
+	background-color: #1240AB;
+
+	height: 85px;
+	width: 300px;
+	border-radius: 10px;
+	opacity: 0.8;
+
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: bold;
+
+	margin-left: 550px;
+	margin-top: 15px;
+
+	
+
+}
